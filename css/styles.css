@@ -67,6 +67,27 @@ h1, h2, .navbar-brand {
     align-items: center;
 }
 
+.hero-image {
+    width: 80%;
+    height: auto;
+    margin-left: 2rem;
+    object-fit: contain;
+}
+
+.hero-image-mobile {
+    max-width: 40%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (min-width: 1400px) {
+    .hero-image {
+        max-width: 100%;
+        margin-left: 4rem;
+    }
+}
+
 .hero-section .display-4 {
     font-family: var(--title-font);
     font-weight: 900;
